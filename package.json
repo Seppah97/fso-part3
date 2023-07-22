@@ -4,8 +4,16 @@
   "description": "Repository for Full Stack Open part 3 exercises",
   "main": "index.js",
   "scripts": {
+    "start": "node phonebook.js",
+    "dev": "nodemon phonebook.js",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "author": "Henri Seppä",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
